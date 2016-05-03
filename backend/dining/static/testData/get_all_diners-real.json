@@ -1,0 +1,140 @@
+[
+    {
+        "campus_name": "West",
+        "diners": [
+            {
+                "diner_id": 1,
+                "diner_name": "Cook House Dining Room",
+                "diner_desc": "Located in Alice Cook House, the Cook House Dining Room is an All You Care To Eat dining room for the House's residents, and for the whole Cornell community",
+                "close_at": "2013-10-14T14:00:00",
+                "is_open": 1,
+                "diner_location": {
+                    "longitude": -76.48840503465243,
+                    "latitude": 42.4476932428124
+                },
+                
+                "diner_distance": 0.3
+            },
+            {
+                "diner_id": 2,
+                "diner_name": "Becker House Dining Room",
+                "diner_desc": "Located in Carl Becker House, the Becker House Dining Room is an All You Care To Eat dining room for the House's residents, and for the whole Cornell community.",
+                "close_at": "2013-10-14T14:00:00",
+                "is_open": 1,
+                "diner_location": {
+                    "longitude": -76.48840503465243,
+                    "latitude": 42.4476932428124
+                },
+                "diner_distance": 0.4
+            },
+            {
+                "diner_id": 3,
+                "diner_name": "Keeton House Dining Room",
+                "diner_desc": "Located in William Keeton House, the Keeton House Dining Room is an All You Care To Eat dining room for the House's residents, and for the whole Cornell community.",
+                "close_at": "2013-10-14T14:00:00",
+                "is_open": 1,
+                "diner_location": {
+                    "longitude":-76.48884376307332 ,
+                    "latitude":42.44795947958593
+                },
+                "diner_distance": 0.5
+            },
+            {
+                "diner_id": 4,
+                "diner_name": "Rose House Dining Room",
+                "diner_desc": "Located in Flora Rose House, the Rose House Dining Room is an All You Care To Eat dining room for the House's residents, and for the whole Cornell community.",
+                "close_at": "2013-10-14T14:00:00",
+                "is_open": 1,
+                "diner_location": {
+                    "longitude":-76.48900283546976,
+                    "latitude":42.4472046669332
+                },
+                "diner_distance": 0.5
+            },
+            {
+                "diner_id": 5,
+                "diner_name": "West Side Express",
+                "diner_desc": "Located in Hans Bethe House on West Campus, West Side Express is a great place to grab a quick bite when you're on the run or when you need a late-night refueling. ",
+                "close_at": "2013-10-14T14:00:00",
+                "is_open": 1,
+                "diner_location": {
+                    "longitude":-76.48840503465243,
+                    "latitude":42.4476932428124
+                },
+                "diner_distance": 0.5
+            },
+            {
+                "diner_id": 9,
+                "diner_name": "104 West!",
+                "diner_desc": "Located next to the Center for Jewish Living building on the south edge of west campus, 104West! is Cornell's kosher and multicultural All You Care To Eat dining room.",
+                "close_at": "2013-10-14T14:00:00",
+                "is_open": 1,
+                "diner_location": {
+                    "longitude": -76.48137246980025,
+                    "latitude": 42.45222842990206
+                },
+                "diner_distance": 0.3
+            },
+
+        ]
+    },
+    {
+        "campus_name": "North",
+        "diners": [
+            {
+                "diner_id": 6,
+                "diner_name": "Robert Purcell Marketplace Eatery",
+                "diner_desc": "Located on the third floor of Robert Purcell Community Center on north campus, the Marketplace Eatery is an award-winning All You Care To Eat dining room with a huge variety of menu options.",
+                "close_at": "2013-10-14T14:00:00",
+                "is_open": 1,
+                "diner_location": {
+                    "longitude": -76.47730334247933,
+                    "latitude": 42.4554368668494
+                },
+                "diner_distance": 0.3
+            },
+            {
+                "diner_id": 7,
+                "diner_name": "North Star Dining Room",
+                "diner_desc": "Whatever you're hungry for, you're sure to find something irresistible on the menu at North Star, an All You Care To Eat dining room on the third floor of Appel Commons.",
+                "close_at": "2013-10-14T14:00:00",
+                "is_open": 1,
+                "diner_location": {
+                    "longitude": -76.47776763669056,
+                    "latitude": 42.45294324064466
+                },
+                "diner_distance": 0.3
+            },
+            {
+                "diner_id": 8,
+                "diner_name": "Risley Dining Room",
+                "diner_desc": "Cornell Dining's best-kept secret, Risley Dining is an All You Care To Eat dining room in Risley Residential College, just north of the Thurston Avenue bridge.",
+                "close_at": "2013-10-14T14:00:00",
+                "is_open": 1,
+                "diner_location": {
+                    "longitude": -76.48137246980025,
+                    "latitude": 42.45222842990206
+                },
+                "diner_distance": 0.3
+            },
+            
+        ]
+    },
+    {
+        "campus_name": "Center",
+        "diners": [
+            {
+                "diner_id": 10,
+                "diner_name": "Okenshields",
+                "diner_desc": "Located in Willard Straight Hall in the heart of central campus, Okenshields is an All You Care To Eat dining room with beautiful views of the Slope and Ithaca hillsides. ",
+                "close_at": "2013-10-14T14:00:00",
+                "is_open": 1,
+                "diner_location": {
+                    "longitude": -76.48475929560111,
+                    "latitude": 42.44678900609101
+                },
+                "diner_distance": 0.3
+            },
+        ]
+    },
+]

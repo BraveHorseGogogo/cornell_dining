@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+  <script src="js/reroute.js"></script>
+</head>
+<body>
+<div data-role="page" id="menu" data-add-back-btn="true" data-theme="c" data-dom-cache="true">
+	
+	<div data-role="header" class="header">
+		<a href="javascript:void(0);" class="backbtn" data-rel="back"></a>
+	    <!--div id="search-btn" class="ux-search-btn"></div-->
+		<div class="title-container">
+		  <img src="img/icon_small.png">
+		  <h1 class="pageTitle">Diner</h1>
+		</div>
+    </div>
+	
+	<div data-role="content"> 
+
+	<div data-role="none" class="menu" ux:data="data{menu}">
+		<h1 class="station" ux:data="data{menu.station@html}">station</h1>
+		<div class="menu-item" ux:data="data{menu._foods}">
+			<div class="icon-fav unfav"></div>
+			<a class="ux-food-name food-item-name" ux:data="data{menu._foods._name@html}">Item Name</a>			
+		</div>
+	</div>
+      	
+	</div><!-- /content -->
+</div><!-- /page -->
+</body>
+</html>

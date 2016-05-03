@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<!-- 
+AVOID QUICK PATCHES:
+	Follow design guides when making changes to the file.
+	This file has been partially cleaned up for project handover.
+	Any new changes should follow general design guides.
+
+Comments about this file here:
+	- All subsequent pages will be added on this page.
+		- Any new page loaded in the app is wrapped within this page.
+		- Head tag of only this page is read by the application.
+		- Directly accessing other pages will be redirected back to here. This is done by having the reroute.js added in head of other pages.
+    - more?
+-->
+<html>
+<head>
+  <title>Cornell Dining App</title> 
+  
+  <!--  -->
+  <meta name="format-detection" content="telephone=no"> 
+  <meta name="viewport" content="width=320, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  
+  <!-- Stylesheets-->
+  
+  <!-- minified, without theming. 
+  Work with this file to build customized search,popup, form styling from SCRATCH -->
+  <!-- <link rel="stylesheet" href="css/jquery.mobile.structure-1.3.2.min.css" > -->
+  
+  <!-- minified complete JQM css, with theming-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.3.2.min.css" >
+  
+  <!-- <link rel="stylesheet" href="css/jquery.mobile.custom.structure.css" > -->
+  <!-- <link rel="stylesheet" href="css/jquery.mobile.custom.theme.min.css" > -->
+
+
+  <link rel="stylesheet" href="owl-carousel/owl.carousel.css"> <!--OWL SLIDER-->
+  <link rel="stylesheet" href="owl-carousel/owl.theme.css"> <!--OWL SLIDER-->
+  <link rel="stylesheet" href="css/slider.css"> <!--OWL SLIDER-->
+  <link rel="stylesheet" type="text/css" href="css/index.css" >
+ 
+  <!-- 3rd Party Javascipt Libs-->
+  <script src="js/3rd/jquery-2.0.3.min.js"></script>
+  <script src="js/3rd/jquery.mobile.custom.min.js"></script> 
+  <script src="js/3rd/jquery.validate.min.js"></script>
+  
+  <script src="js/3rd/moment.js"></script>
+
+  <script src="owl-carousel/owl.carousel.js"></script> <!--OWL SLIDER-->
+ 
+  <script src="http://maps.google.com/maps/api/js?sensor=false&libraries=geometry"></script>
+
+  <!-- Javascript Code-->
+  <script src="js/setData.js"></script>
+  <script src="js/set.js"></script>
+  <script src="js/service.js"></script>
+  <script src="js/main.js"></script>  
+  
+</head> 
+<body> 
+  <div data-role="page" id="SplashScreen"> 
+    <div class="SplashScreen">
+	  <img src="img/cd-full-logo.png" alt="Cornell Dining Logo">
+	</div>
+  </div>
+
+<script type="text/javascript" src="phonegap.js"></script> <!-- Consider moving to header -->
+
+</body>
+</html>

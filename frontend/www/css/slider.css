@@ -1,0 +1,26 @@
+/*OWL Carousel*/
+
+/*Diner Image Slider*/
+#slider .item{
+  margin: 3px;
+  /*
+  Changed to using auto height, as imgs get croped when height is fixed
+  height:140px;
+  */
+  overflow: hidden;
+}
+#slider .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+/* Diner Hours and Menu Slider*/
+.dinerInfo .section .btn.menu-wrapper{
+  margin-right: 4px;
+}
+
+#hoursAndMenuSlider .slide h1{
+  text-transform: capitalize;
+}

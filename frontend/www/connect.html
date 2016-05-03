@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+  <script src="js/reroute.js"></script>
+</head>
+<body>
+  <div data-role="page" id="connectScreen" data-add-back-btn="true" data-theme="b">
+  
+  <div data-role="header" class="header">
+	<a href="javascript:void(0);" class="backbtn" data-rel="back"></a>
+	<!--div id="search-btn" class="ux-search-btn"></div-->
+	<div class="title-container">
+	  <img src="img/icon_small.png">
+	  <h1>Feedback</h1>
+	</div>
+  </div>
+  
+  
+  <div data-role="content">
+	<h2 class="">We will be happy to hear from you.</h1>
+ 	<h3 class="">Please use the form below to write to us, We will respond as soon as possible.</h2>
+ 	<form id="connect" action="" class="feedback-form" data-role="none">
+	
+ 		<div class="section" data-role="none">
+ 			<label class="label" for="netid" data-role="none">NetID</label> 
+ 			<input type="text" name="netid" id="netid" value="" data-role="none"/> 
+ 			<label for="netid" class="error" style="display: none;" data-role="none" >This field is required.</label>	
+		</div>
+		
+		<div class="section" data-role="none">
+			<label class="label" for="select-facility"  data-role="none">Facility</label>
+			<select name="facility" id="select-facility" data-role="none">
+				<!-- By default, the comment is considered to be related to the diner with hall_id = 1 -->
+				<option class="ux-default-select-value" value="1" disabled selected>Select an eatery</option>
+				<option ux:data="data{options;options.name;options.id@value}">Select a Diner</option>
+			</select>
+		</div>
+		
+		<div class="section" data-role="none">
+			<label class="label" for="message"  data-role="none">Message</label> 
+			<textarea name="message" id="message" data-role="none"></textarea>
+			<label for="message" class="error" style="display: none;" data-role="none">This field is required.</label>
+		</div>
+		
+		<input type="submit" value="SUBMIT" />
+		
+	</form>
+  </div>
+  <!-- /content -->
+  <div data-role="popup" id="popupBasic">
+	<p>This is a completely basic popup, no options set.</p>
+  </div>
+  <div id="popupDialog-popup">
+	<div data-role="popup" data-add-back-btn="false" data-dismissible="false" id="popupDialog" data-transition="pop">
+	  <div role="banner" class="ui-header ui-bar-a">
+		<h1 class="ui-title" role="heading" aria-level="1">Message Sent</h1>
+	  </div>
+	  <div data-role="content" data-theme="d" role="main">
+		<h3>We have received your message</h3>
+		<p>Thank you for letting us to hear from you. We value your opinion very much, and we will respond to you as soon as
+		possible.</p>
+		<a data-role="button" data-direction="reverse" href="home.html" data-transition="slide" data-theme="b"
+		data-corners="true" data-shadow="true" data-icon="check" data-iconshadow="true" data-wrapperels="span">Back to Dining
+		Halls</a>
+	  </div>
+	</div>
+  </div>
+</div>
+<!-- /page -->
+</body>
+</html>

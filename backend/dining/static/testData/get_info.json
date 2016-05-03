@@ -1,0 +1,22 @@
+{
+    "hall_id": 0,
+    "menu": [
+        "Sandwich",
+        "Hamberger",
+        "Chicken Salad",
+        "Pepsi Beverages",
+        "Baked Goods",
+        "Contact"
+    ],
+    "images":[
+                    "http://living.sas.cornell.edu/living/dine/wheretoeat/AYCTEdiningrooms/images/cook-house-dining-exterior-shot.png",
+                    "http://living.sas.cornell.edu/living/dine/wheretoeat/AYCTEdiningrooms/images/0312_12_101_select_2.png",
+                    "http://living.sas.cornell.edu/living/dine/wheretoeat/AYCTEdiningrooms/images/0312_12_117_select_2.png"
+    ],
+    "Contact": {
+        "phone_number": "6072551879",
+        "location": "Kennedy Hall, Central Campus"
+    }
+}
+	
+

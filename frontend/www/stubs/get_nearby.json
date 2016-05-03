@@ -1,0 +1,54 @@
+[
+    {
+        "close_at": "20:30:00",
+        "current_meal": "dinner",
+        "diner_desc": "Located in Alice Cook House, the Cook House Dining Room is an All You Care To Eat dining room for the House's residents, and for the whole Cornell community",
+        "diner_distance": 0.0075836653235418616,
+        "diner_id": 1,
+        "diner_location": {
+            "latitude": "42.4476932428124",
+            "longitude": "-76.48840503465243"
+        },
+        "diner_name": "Cook House Dining Room",
+        "is_open": 1
+    },
+    {
+        "close_at": "",
+        "current_meal": "",
+        "diner_desc": "Located in Carl Becker House, the Becker House Dining Room is an All You Care To Eat dining room for the House's residents, and for the whole Cornell community.",
+        "diner_distance": 0.0075836653235418616,
+        "diner_id": 2,
+        "diner_location": {
+            "latitude": "42.4476932428124",
+            "longitude": "-76.48840503465243"
+        },
+        "diner_name": "Becker House Dining Room",
+        "is_open": 0
+    },
+    {
+        "close_at": "",
+        "current_meal": "",
+        "diner_desc": "Located in William Keeton House, the Keeton House Dining Room is an All You Care To Eat dining room for the House's residents, and for the whole Cornell community.",
+        "diner_distance": 0.0080963104236806954,
+        "diner_id": 3,
+        "diner_location": {
+            "latitude": "42.44795947958593",
+            "longitude": "-76.48884376307332"
+        },
+        "diner_name": "Keeton House Dining Room",
+        "is_open": 0
+    },
+    {
+        "close_at": "",
+        "current_meal": "",
+        "diner_desc": "Located in Flora Rose House, the Rose House Dining Room is an All You Care To Eat dining room for the House's residents, and for the whole Cornell community.",
+        "diner_distance": 0.007907998318021579,
+        "diner_id": 4,
+        "diner_location": {
+            "latitude": "42.4472046669332",
+            "longitude": "-76.48900283546976"
+        },
+        "diner_name": "Rose House Dining Room",
+        "is_open": 0
+    }
+]
